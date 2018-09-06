@@ -346,7 +346,7 @@ public class KerberosAuthenticator implements Authenticator
               if (newToken && !token.isExpired() && token != AuthenticationToken.ANONYMOUS) {
                 String signedToken = mySigner.sign(token.toString());
                 createAuthCookie(httpResponse, signedToken, getCookieDomain(),
-                                 getCookiePath(), token.getExpires(), isHttps
+                                 getCookiePath(), token.getExpires(), true, isHttps
                 );
                 request.setAttribute(SIGNED_TOKEN_ATTRIBUTE, tokenToCookieString(
                     signedToken,
