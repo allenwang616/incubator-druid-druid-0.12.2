@@ -197,6 +197,10 @@
                 <enabled>false</enabled>
             </releases>
         </repository>
+        <repository>
+            <id>sigar</id>
+            <url>http://repository.jboss.org/nexus/content/repositories/thirdparty-uploads/</url>
+        </repository>
     </repositories>
 
     <dependencyManagement>
