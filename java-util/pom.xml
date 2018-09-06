@@ -266,10 +266,10 @@
     </build>
 
     <repositories>
-        <repository>
-            <id>sigar</id>
-            <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-uploads/</url>
-        </repository>
+        <!--<repository>-->
+            <!--<id>sigar</id>-->
+            <!--<url>https://repository.jboss.org/nexus/content/repositories/thirdparty-uploads/</url>-->
+        <!--</repository>-->
     </repositories>
 
 </project>
