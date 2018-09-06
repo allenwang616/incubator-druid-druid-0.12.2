@@ -155,6 +155,7 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+<!--
         <repository>
             <id>thunderblade-snapshot</id>
             <name>maimai snapshot maven</name>
@@ -163,6 +164,7 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+-->
         <repository>
             <id>alimaven</id>
             <name>aliyun maven</name>
